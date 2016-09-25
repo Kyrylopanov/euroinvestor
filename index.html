@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <META charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> <!-- mobile meta -->
+	<TITLE>Euroinvestor</TITLE>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+	
+
+	
+</HEAD>
+    
+<BODY>
+	<div class="container">
+	    <div class="containerHead">
+	        <div class="containerHead-left">
+	            <div id="name"></div>
+	            <div id="symbol"></div>
+                <div class="data">
+                    <img src="images/arrow.png" alt="arrow" class="arrow"/>
+                    <div id="last"></div>
+                    <p class="usd">USD</p>
+	            </div>
+            </div>
+	        <div class="containerHead-right">
+            <div class="inRight">
+	            <div id="change"></div>
+	            <div id="changePercent"></div>
+	        </div>
+	        </div>
+	    </div>
+	    <hr/>
+	    <div class="containerChart">
+	        <div id="chart"></div>
+	    </div>
+	    <div class="containerBottom">
+	        <div class="bottomChild">
+	            <div class="bottomText">OPEN</div>
+	            <div id="open" class="bottomData"></div>
+	            <hr/>
+	            <div class="bottomText">PREVIOUS CLOSE</div>
+	            <div id="prevClose" class="bottomData"></div>
+	            <hr/>
+	        </div>
+	        <div class="bottomChild">
+	            <div class="bottomText">DAY RANGE</div>
+	            <div id="lowAndHigh" class="bottomData"></div>
+	            <hr/>
+	            <div class="bottomText">52WK RANGE</div>
+	            <div id="lowAndHigh52" class="bottomData"></div>
+	            <hr/>
+	        </div>
+	        <div class="bottomChild">
+	            <div class="bottomText">VOLUME</div>
+	            <div id="volume" class="bottomData"></div>
+	            <hr/>
+	            <div class="bottomTextNew"></div>
+	            
+	            <hr/>
+	        </div>
+	    </div>
+	    
+	</div>
+	
+
+
+	<script src="./js/app.js"></script>
+
+	
+</BODY>
+</HTML>
